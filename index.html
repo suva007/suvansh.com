@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suvansh Arora Portfolio Website</title>
+    <link rel = "icon" href = "img/git.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <p class="attribution">&copy; Coded by Suvansh</p>
+</head>
+<body>
+<header>
+    
+    <div class="logo">
+        <img src="" alt="">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">My Interests</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+            <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+            <li class="nav__item"><a href="#education" class="nav__link">Qualification</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Technical Skills</a></li>
+            <li class="nav__item"><a href="#bottom" class="nav__link">Resume</a></li>
+            <li class="nav__item"><a href="#bottom" class="nav__link">Contact me</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Introduction -->
+<section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Suvansh Arora</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+    <p class="section__subtitle section__subtitle--intro1"></p>
+    <img src="img/suvansh.jpg" alt="a picture of Suvansh Arora smiling" class="intro__img">
+</section>
+
+
+<!-- My services -->
+<section class="my-services" id="services">
+    <div class="background-overlay"></div>
+    <h2 class="section__title section__title--services">My Interests</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Design</h3>
+            <p>Crafting scalable software, user interfaces, and utilities is my passion. I excel at analyzing complex problems, envisioning elegant solutions, and bringing them to life with creativity and precision. Whether it's designing intuitive user experiences or architecting robust backend systems, I thrive on the challenge of creating solutions that are both beautiful and functional. </p>
+        </div> <!-- / service -->
+
+        <div class="service">
+            <h3>Development</h3>
+            <p>In my journey through tech titans like Dell EMC and MathWorks, I've honed my craft, navigating through complex codebases, spearheading infrastructural upgrades, and eradicating technical debts. Renowned as the ultimate team player, I seamlessly weave innovation with precision, relentlessly pushing the boundaries of what's possible in the digital realm.</p>
+        </div> <!-- / service -->
+
+        <div class="service">
+            <h3>Research</h3>
+            <p>I believe that nurturing a research-oriented approach is essential for maximizing efficiency and innovation. In my work, I blend established software design patterns with inventive solutions, optimizing problem-solving effectiveness. Noteworthy accomplishments include improving image classification with a modified agglomerative clustering algorithm and introducing a watermarking algorithm for image integrity verification. Additionally, I developed a streamlined testing method for software SDKs at Dell EMC, facilitating quicker version rollouts.</p>
+        </div> <!-- / service -->
+
+        <div class="service">
+            <h3>Leadership</h3>
+            <p>In my leadership role, I've mentored new engineers, facilitating rapid skill development. Known for my proactive approach, I've initiated projects to enhance organizational processes, such as implementing a logger for C++ microservices and developing a customer analysis tool. Additionally, I've created centralized dashboards for organization-wide events. My commitment to nurturing talent and driving efficiency is at the core of my leadership philosophy.</p>
+        </div> <!-- / service -->
+    </div> <!-- / services -->
+
+    <a href="#work" class="btn">My Projects</a>
+</section>
+
+
+<!-- About me -->
+<section class="about-me" id="about">
+    <h2 class="section__title section__title--about">My Journey</h2>
+    <p class="section__subtitle section__subtitle--about">Embracing challenges, fueling innovation.</p>
+
+    <div class="about-me__body">
+        <p>I am a technology-driven enthusiast with a fervent passion for software development and innovation. My journey began during my bachelor's program, where I actively participated in hackathons and coding competitions, cultivating my problem-solving skills and igniting a deep-seated interest in programming.</p>
+        <p>Following my undergraduate studies, I delved into diverse realms of technology, tackling intriguing AI projects and crafting full-stack web-based solutions aimed at real-world challenges. These experiences not only broadened my understanding but also fueled my determination to make impactful contributions in the software development sphere. </p>
+        <p>Driven by a thirst for knowledge and a relentless pursuit of excellence, I pursued further education, cracking the Graduate Aptitude Test in Engineering (GATE) and securing admission to the esteemed Indian Institute of Information Technology, Jabalpur, for my master's program in Computer Science Engineering. Here, I honed my skills in software engineering, complementing my academic endeavors with hands-on industry experience through internships at renowned organizations, where I contributed to the creation of high-quality software solutions.</p>
+    </div>
+
+    <img  alt="" class="about-me__img">
+</section>
+
+<!-- My Projects -->
+<section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My Projects</h2>
+    <p class="section__subtitle section__subtitle--work">A Glimpse of my range of work</p>
+
+    <div class="portfolio">
+        <a href="portfolio-item.html" class="portfolio__item">
+            <img src="img/image-clustering@2x.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Image Clustering & Rotation Search</span>
+        </a>
+
+        <a href="portfolio9.html" class="portfolio__item">
+            <img src="img/S-AES.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Secure Client-Server communication</span>
+        </a>
+
+        <a href="portfolio2.html" class="portfolio__item">
+            <img src="img/hospital_new.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Hospital Management Software</span>
+        </a>
+
+        <a href="portfolio3.html" class="portfolio__item">
+            <img src="img/lion.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Classical Signal processing & Compression technique</span>
+        </a>
+
+        <a href="portfolio10.html" class="portfolio__item">
+            <img src="img/stitch.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Stiches Multiple Images to form Panorama</span>
+        </a>
+
+        <a href="portfolio5.html" class="portfolio__item">
+            <img src="img/Vehicle.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Vehicle Detection</span>
+        </a>
+
+        <a href="portfolio6.html" class="portfolio__item">
+            <img src="img/image-sec.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Security image transmission Using Image Watermarking</span>
+        </a>
+
+        <a href="portfolio7.html" class="portfolio__item">
+            <img src="img/stock.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Stock Market Predictor</span>
+        </a>
+
+        <a href="portfolio8.html" class="portfolio__item">
+            <img src="img/reconstruct.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Image Reconstruction using Deep learning</span>
+        </a>
+
+        <a href="https://github.com/suva007/Email-Service" class="portfolio__item">
+            <img src="img/task.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Task Scheduler</span>
+        </a>
+
+        <a href="https://github.com/suva007/Logger" class="portfolio__item">
+            <img src="img/logger.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Logger for Microservices Architecture</span>
+        </a>
+
+        <a href="https://github.com/suva007/URL-Checker" class="portfolio__item">
+            <img src="img/crawler.jpg" alt="" class="portfolio__img">
+            <span class="text-on-image">Web Crawler</span>
+        </a>
+    </div>
+</section>
+
+<!-- My Experience -->
+<section class="my-services1" id="experience">
+    <h2 class="section__title section__title--about">Work Experience</h2>
+    <p class="section__subtitle section__subtitle--about">Timeline of various projects developed for organisations</p>
+
+<section id="cd-timeline" class="cd-container">
+    
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-picture">
+        </div>
+        <div class="cd-timeline-content">
+            <h2>MathWorks</h2>
+            <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            Software Engineer - 2
+          </span>
+                <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            Oct 2022 - Present
+          </span>
+
+            </div>
+            <p>Working alongside development team for <strong>MATLAB & Simulink</strong></p>
+            <p>Worked on various interesting projects like:</p>
+            <p>1. <strong>Simulink Data Managemen</strong>: Designed infrastructure and interface to expand Simulink’s data source compatibility, facilitating seamless integration with diverse sources, including AWS, Excel, and custom data source specific to organisations.</p>
+            <p>2. <strong>Data Consistency Check for Simulink</strong>: Achieved a 50% improvement in Simulink’s simulation performance, directly benefiting strategic customers.</p>
+            <p>3. <strong>Logger for Performance Monitoring</strong>: Engineered a C++ logger for multi-component codebases, enabling real-time performance tracking of microservices, and triggering alerts for backend performance exceeding 10% to ensure proactive optimization.</p>
+            <p>4. <strong>Data driven Decisions</strong>: Developed Data Analysis tool for Engineering Managers to help analyse the customer’s product usage trend.</p>
+            <ul class="content-skills">
+                <li>Python</li>
+                <li>C++</li>
+                <li>Perforce</li>
+                <li>MATLAB</li>
+                <li>Simulink</li>
+                <li>Microservices</li>
+                <li>REST</li>
+                <li>AWS</li>
+                <li>Linux</li>
+                <li>Data Structures</li>
+            </ul>
+            <span class="cd-date">Oct 2022 - Present</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-picture">
+        </div>
+        <div class="cd-timeline-content">
+            <h2>Dell EMC</h2>
+            <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            Software Engineer
+          </span>
+                <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            July 2021 - Oct 2022
+          </span>
+
+            </div>
+            <p>Working alongside development team for <strong>DELL EMC Powerscale</strong>, which is an industry leading storage product based on SCALE OUT NAS .</p>
+            <p>Worked on various interesting projects like:</p>
+            <p>1. <strong>Testing Framework</strong>: Developed a mocking server for Testing Powerscale SDK</p>
+            <p>2. <strong>Security Parser</strong>: Used Tries in order to find diff(Anomalies on Powerscale cluster)</p>
+            <p>3. <strong>CLI Implementation</strong>: Wrapper over Powerscale Rest APIs</p>
+            <p>4. <strong>Storage Monitoring</strong>: Helped in resolving security vulnerabilities and backend upliftment for the product.</p>
+            <p>and worked on few helper projects/scripts that made life of developers super easy.</p>
+            <ul class="content-skills">
+                <li>Python</li>
+                <li>C++</li>
+                <li>SDK</li>
+                <li>Mock server</li>
+                <li>swagger-codegen</li>
+                <li>docker</li>
+                <li>PostgreSQL</li>
+                <li>NAS</li>
+                <li>REST</li>
+                <li>WSGI</li>
+                <li>Linux</li>
+                <li>Data Structures</li>
+                <li>Celery</li>
+                <li>RabbitMQ</li>
+            </ul>
+            <span class="cd-date">July 2021 - Oct 2022</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-movie">
+        </div> <!-- cd-timeline-img -->
+
+        <div class="cd-timeline-content">
+            <h2>Indian Institute of Information Technology</h2>
+            <div class="timeline-content-info">
+            <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            Teaching Assitant
+          </span>
+            <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            Sept 2020 - July 2021
+          </span>
+          <li>Python</li>
+          <li>Machine Learning</li>
+                <li>C++</li>
+            <span class="cd-date">Sept 2020 - July 2021</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    </div> <!-- cd-timeline-block -->
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-movie">
+        </div> <!-- cd-timeline-img -->
+
+        <div class="cd-timeline-content">
+            <h2>AMC pvt. hospital</h2>
+            <div class="timeline-content-info">
+            <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            Intern [SDE]
+          </span>
+            <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            Jan 2020 - Apr 2020
+          </span>
+            <p>Worked on Digitisation of Hospital management Software.</p>
+                <p>1. UI based management system, that manages all operations done by hospital</p>
+                <p>2. Developed database models resulting in multiple schemas, each managing one component.</p>
+                <ul class="content-skills">
+                    <li>Java</li>
+                    <li>MySQL</li>
+                    <li>applets</li>
+                    <li>awt</li>
+                    <li>swing</li>
+                </ul>
+            <span class="cd-date">Jan 2020 - Apr 2020</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    </div> <!-- cd-timeline-block -->
+</section> <!-- cd-timeline --></section>
+
+<!-- Educational Qualification -->
+<section class="my-work1" id="education">
+    <h2 class="section__title section__title--work">Educational Qualification</h2>
+<!--    <p class="section__subtitle section__subtitle&#45;&#45;work">A selection of my range of work</p>-->
+    <section id="cd-timeline" class="cd-container">
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h4>INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, DESIGN & MANUFACTURING, JABALPUR<br>[IIITDMJ]</h4>
+                <div class="timeline-content-info">
+                    <p><Strong>Course Work:</Strong></p>
+                    <p>Deep Learning</p>
+                    <p>Un-supervised Machine Learning Advanced Data structures</p>
+                    <p>Software Engineering </p>
+                    <p>Encryption & Cryptography using C Digital Watermarking</p>
+          <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            M.TECH- Computer Science
+          </span>
+                    <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            August 2020 - August 2022
+          </span>
+                </div>
+                <p>
+                    <li>CGPA: 8.6</li>
+                </p>
+                <span class="cd-date">Aug 2020 - August 2022</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h4>CHANDIGARH UNIVERSITY</h4>
+                <div class="timeline-content-info">
+                    <p><Strong>Course Work:</Strong></p>
+                    <p>Operating Systems </p>
+                    <p> Database management Systems </p>
+                    <p>Computer Networks </p>
+                    <p>Data Structures & Algorithms Machine learning </p>
+                    <p> Programming using Python Computer Graphics</p>
+                    <p> Unix Tools and Scripting</p>
+            <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            B.TECH - Computer Science
+          </span>
+                    <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            July 2016 - July 2020
+          </span>
+
+
+
+                </div> <!-- cd-timeline-content -->
+                <p>
+                <li>CGPA: 8.4</li>
+                </p>
+                <span class="cd-date">July 2016 - July 2020</span>
+            </div> <!-- cd-timeline-block -->
+
+        </div> <!-- cd-timeline-block -->
+</section>
+</section>
+
+<!-- My Technical Skills -->
+<section class="my-services1" id="skills">
+    <h2 class="section__title section__title--work">Technical Skills</h2>
+
+    <div class="portfolio-5">
+        <img src="img/c++.png" alt="" class="portfolio__img">
+        <img src="img/c.png" alt="" class="portfolio__img">
+        <img src="img/python.png" alt="" class="portfolio__img">
+        <img src="img/css.png" alt="" class="portfolio__img">
+        <img src="img/html.png" alt="" class="portfolio__img">
+        <img src="img/MySQL-Logo.png" alt="" class="portfolio__img">
+        <img src="img/swagger.png" alt="" class="portfolio__img">
+        <img src="img/MATLAB-Logo.png" alt="" class="portfolio__img">
+        <img src="img/docker.webp" alt="" class="portfolio__img">
+        <img src="img/postman.png" alt="" class="portfolio__img">
+        <img src="img/Atlassian-Logo-2010s.png" alt="" class="portfolio__img">
+        <img src="img/agile.jpeg" alt="" class="portfolio__img">
+        <img src="img/jenkins.png" alt="" class="portfolio__img">
+        <img src="img/Confluence_(software)-Logo.wine.png" alt="" class="portfolio__img">
+        <img src="img/git.png" alt="" class="portfolio__img">
+    </div>
+</section>
+
+<!-- Footer -->
+<a id="bottom"></a>
+<footer class="footer">
+    <h2 class="social-list__link" href="mailto:suvansharora07@gmail.com">
+        <a href="mailto:suvansharora07@gmail.com">Mail</a>
+        <i class="fa fa-envelope"></i>
+    </h2>
+    <a href="img/Suvansh_CV.pdf" className="btn btn-outline" download>Download Resume
+        <i class="fa fa-download" aria-hidden="false"></i>
+    </a>
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/in/suvansh-arora/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <p></p>
+            <a href="https://www.linkedin.com/in/suvansh-arora/">        Linkedin</a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/suva007">
+                <i class="fab fa-github"></i>
+            </a>
+            <p></p>
+            <a href="https://github.com/suva007">Github</a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link" href="tel:9876307748">
+                <i class="fa fa-phone"></i>
+            </a>
+            <p></p>
+            <a href="tel:9876307748">Call</a>
+        </li>
+    </ul>
+    
+</footer>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
